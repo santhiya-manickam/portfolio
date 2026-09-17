@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    .young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+}
+.container{
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+.tittle_S1{
+    padding: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.menu button{
+   padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    width: 15%;
+}
+.center{
+    padding: 30px;
+    text-align: center;
+    font-size: 32px;
+}
+.types{
+    display: flex;
+   justify-content: center;
+   gap: 10px;
+   margin: 20px;
+}
+.Search{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    margin-left: 20%;
+    margin-right: 20px;
+    align-items: center;
+   
+}
+.Search input{
+    display: flex;
+    width: 60%;
+    font-size: 16px;
+    border: none;
+    justify-content: right;
+    
+   
+}
+.Search input:focus{
+    outline: none;
+}
+.Search button{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    margin-left: 40px;
+}
+.pic{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+}
+.find{
+    padding: 5px;
+    margin: 30px;
+
+
+}
+.find p{
+    margin: 5px;
+    
+    
+}
+.card{
+    width: 200px;
+    display: flex;
+    gap: 10px;
+}
+.card img{
+    width: 180%;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 30px;
+}
+.topic{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: green;
+
+}
+.topic h2{
+    text-align: center;
+}
+.sec-2{
+    padding: 2px;
+    margin: 2px;
+}
+.sec-2 p{
+    margin: 10px;
+}
+.sale-img{
+    display: flex;
+    width: 200px;
+    gap: 10px;
+    padding: 2px;
+    flex-basis: 20%;
+}
+.sale-img img{
+    width: 360px;
+    gap: 10px;
+    border-radius: 30px;
+    
+    
+}
+.review{
+    display: flex;
+    gap: 10px;
+    padding: 2px;
+}
+.review-1,.review-2,.review-3,.review-4{
+    width: 360px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    flex-shrink: 0;
+
+}
+.bg{
+    padding: 10px;
+    width: 200%;
+    display: flex;
+    align-items: center;
+}
+.dec{
+    padding-left: 5%;
+  
+   
+}
+.dec p{
+    padding: 5px;
+    width: 250px;
+    text-align: center;
+    margin-left: 20%;
+}
+.dec button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    margin-left: 40%;
+}
+.place{
+    width: 200px;
+    display: flex;
+    gap: 10px;
+}
+.place img{
+    width: 180%;
+    display: flex;
+    gap: 10px;
+    border-radius: 30px;
+}
+.head{
+    margin-left: 5%;
+    display: flex;
+    color: green;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+.about{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+.about h1{
+    padding: 20px;
+    display: flex;
+    position: relative;
+    background-color: black;
+    color: white;
+
+}
+.about a{
+    color: violet;
+   padding: 0;
+   margin: 0;
+   justify-content: flex-start;
+   gap: 20px;
+}
+@media screen and(max-width:800px) {
+    body{
+        font-size: 10px;
+    }
+}
+@media screen and(max-width:500px) {
+    .card{
+        flex-basis: 60%;
+
+        
+    }
+    .container{
+        display: none;
+    }
+    
+    
+}
